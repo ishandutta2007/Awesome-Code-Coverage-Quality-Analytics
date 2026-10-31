@@ -62,49 +62,49 @@ The global static code analysis and code quality analytics market is valued betw
 
 ### Top Open-Source Tools (Ranked by Stars)
 
-- **[Ruff](https://github.com/astral-sh/ruff)** [![GitHub stars](https://img.shields.io/github/stars/astral-sh/ruff?style=social&color=white)](https://github.com/astral-sh/ruff/stargazers)  
+- **[Ruff](https://github.com/astral-sh/ruff)** [![GitHub_Stars](https://img.shields.io/github/stars/astral-sh/ruff?style=social&color=white)](https://github.com/astral-sh/ruff/stargazers)  
   ⚡ **Extremely fast Python linter and code formatter written in Rust** (MIT) — 10–100× faster than Flake8, Black, and isort combined. Replaces dozen-tool Python linting stacks with a single static analyzer and autofix engine. **Features**: 800+ built-in lint rules reimplementing Flake8 plugins, pyupgrade, autofixes, monorepo support, and native VS Code/language server integration. **Best for**: Any modern Python codebase seeking instant static quality checks and formatting.
 
-- **[golangci-lint](https://github.com/golangci/golangci-lint)** [![GitHub stars](https://img.shields.io/github/stars/golangci/golangci-lint?style=social&color=white)](https://github.com/golangci/golangci-lint/stargazers)  
+- **[golangci-lint](https://github.com/golangci/golangci-lint)** [![GitHub_Stars](https://img.shields.io/github/stars/golangci/golangci-lint?style=social&color=white)](https://github.com/golangci/golangci-lint/stargazers)  
   🐹 **Definitive fast linter runner and static analysis platform for Go** (GPL-3.0) — Runs linters in parallel, caches Go build programs, and reuses ASTs for maximum throughput. Integrates dozens of linters (govet, errcheck, staticcheck, unused) in one unified CLI and GitHub Actions workflow. **Best for**: Go developers and CI pipelines requiring fast, comprehensive static checks.
 
-- **[Semgrep](https://github.com/semgrep/semgrep)** [![GitHub stars](https://img.shields.io/github/stars/semgrep/semgrep?style=social&color=white)](https://github.com/semgrep/semgrep/stargazers)  
+- **[Semgrep](https://github.com/semgrep/semgrep)** [![GitHub_Stars](https://img.shields.io/github/stars/semgrep/semgrep?style=social&color=white)](https://github.com/semgrep/semgrep/stargazers)  
   🛡️ **Lightweight polyglot static analysis engine and SAST** (LGPL-2.1) — Scans code for bugs, security flaws, and compliance anti-patterns using code-syntax pattern matching (`$X == $X`). Covers 30+ languages without slow compilation steps, making custom rule writing accessible in minutes. **Best for**: AppSec and engineering teams wanting custom quality rules and fast CI static analysis.
 
-- **[Infer](https://github.com/facebook/infer)** [![GitHub stars](https://img.shields.io/github/stars/facebook/infer?style=social&color=white)](https://github.com/facebook/infer/stargazers)  
+- **[Infer](https://github.com/facebook/infer)** [![GitHub_Stars](https://img.shields.io/github/stars/facebook/infer?style=social&color=white)](https://github.com/facebook/infer/stargazers)  
   🔬 **Static analysis engine for Java, C, C++, and Objective-C** (MIT) — Developed by Meta to mathematically verify memory safety and catch null pointer dereferences, resource leaks, data races, and concurrency bugs before deployment to production apps. **Best for**: Large-scale systems and mobile apps (Android/iOS) requiring deep interprocedural static bug detection.
 
-- **[SonarQube Community Build](https://github.com/SonarSource/sonarqube)** [![GitHub stars](https://img.shields.io/github/stars/SonarSource/sonarqube?style=social&color=white)](https://github.com/SonarSource/sonarqube/stargazers)  
+- **[SonarQube Community Build](https://github.com/SonarSource/sonarqube)** [![GitHub_Stars](https://img.shields.io/github/stars/SonarSource/sonarqube?style=social&color=white)](https://github.com/SonarSource/sonarqube/stargazers)  
   🏛️ **The standard self-hosted automated code review and quality platform** (LGPL-3.0) — Analyzes 40+ programming languages to detect bugs, vulnerabilities, and code smells. Enforces the Clean Code methodology through blocking quality gates and integrates with IDEs via SonarLint Connected Mode. **Best for**: Organizations wanting centralized self-hosted code quality metrics and standard quality gates across heterogeneous stacks.
 
-- **[Checkstyle](https://github.com/checkstyle/checkstyle)** [![GitHub stars](https://img.shields.io/github/stars/checkstyle/checkstyle?style=social&color=white)](https://github.com/checkstyle/checkstyle/stargazers)  
+- **[Checkstyle](https://github.com/checkstyle/checkstyle)** [![GitHub_Stars](https://img.shields.io/github/stars/checkstyle/checkstyle?style=social&color=white)](https://github.com/checkstyle/checkstyle/stargazers)  
   ☕ **Configurable Java coding standard enforcement and static analysis tool** (LGPL-2.1) — Validates adherence to coding conventions like Google Java Style and Sun Code Conventions. Easily integrated into Maven, Gradle, Ant, and all major IDEs. **Best for**: Java teams enforcing unified stylistic, architectural, and design conventions.
 
-- **[NYC (Istanbul)](https://github.com/istanbuljs/nyc)** [![GitHub stars](https://img.shields.io/github/stars/istanbuljs/nyc?style=social&color=white)](https://github.com/istanbuljs/nyc/stargazers)  
+- **[NYC (Istanbul)](https://github.com/istanbuljs/nyc)** [![GitHub_Stars](https://img.shields.io/github/stars/istanbuljs/nyc?style=social&color=white)](https://github.com/istanbuljs/nyc/stargazers)  
   🌐 **The de facto JavaScript & TypeScript test coverage CLI engine** (ISC) — Built on the Istanbul code instrumentation library. Instruments ES6, TypeScript, Babel, and JSX codebases to measure statement, branch, function, and line coverage across Mocha, Jest, Node-tap, and Ava test suites. **Best for**: JavaScript and TypeScript teams requiring rock-solid coverage reports and LCOV/HTML outputs.
 
-- **[PMD](https://github.com/pmd/pmd)** [![GitHub stars](https://img.shields.io/github/stars/pmd/pmd?style=social&color=white)](https://github.com/pmd/pmd/stargazers)  
+- **[PMD](https://github.com/pmd/pmd)** [![GitHub_Stars](https://img.shields.io/github/stars/pmd/pmd?style=social&color=white)](https://github.com/pmd/pmd/stargazers)  
   🔍 **Extensible polyglot static code analyzer and duplicate detector (CPD)** (BSD-style) — Finds common programming flaws like dead code, unused variables, suboptimal string manipulation, and empty catch blocks across Java, JavaScript, Apex, PLSQL, XML, and more. **Best for**: Static defect detection and cross-language copy-paste detection (CPD).
 
-- **[SimpleCov](https://github.com/simplecov-ruby/simplecov)** [![GitHub stars](https://img.shields.io/github/stars/simplecov-ruby/simplecov?style=social&color=white)](https://github.com/simplecov-ruby/simplecov/stargazers)  
+- **[SimpleCov](https://github.com/simplecov-ruby/simplecov)** [![GitHub_Stars](https://img.shields.io/github/stars/simplecov-ruby/simplecov?style=social&color=white)](https://github.com/simplecov-ruby/simplecov/stargazers)  
   💎 **The standard code coverage analysis library for Ruby** (MIT) — Hooks directly into Ruby’s built-in Coverage library to provide line, branch, and block coverage with automatic merging across test suites (RSpec, Minitest, Cucumber). Offers formatted HTML reports and group filtering. **Best for**: Ruby and Rails applications requiring straightforward test coverage metrics and CI thresholds.
 
-- **[JaCoCo](https://github.com/jacoco/jacoco)** [![GitHub stars](https://img.shields.io/github/stars/jacoco/jacoco?style=social&color=white)](https://github.com/jacoco/jacoco/stargazers)  
+- **[JaCoCo](https://github.com/jacoco/jacoco)** [![GitHub_Stars](https://img.shields.io/github/stars/jacoco/jacoco?style=social&color=white)](https://github.com/jacoco/jacoco/stargazers)  
   🧪 **Definitive open-source code coverage library for Java & JVM languages** (EPL-2.0) — Performs on-the-fly bytecode instrumentation using Java agents without requiring source files. Measures instructions (C0), branches (C1), lines, methods, and cyclomatic complexity across Maven, Gradle, and Ant. **Best for**: JVM teams (Java, Kotlin, Scala) seeking standard, performant coverage instrumentation.
 
-- **[SpotBugs](https://github.com/spotbugs/spotbugs)** [![GitHub stars](https://img.shields.io/github/stars/spotbugs/spotbugs?style=social&color=white)](https://github.com/spotbugs/spotbugs/stargazers)  
+- **[SpotBugs](https://github.com/spotbugs/spotbugs)** [![GitHub_Stars](https://img.shields.io/github/stars/spotbugs/spotbugs?style=social&color=white)](https://github.com/spotbugs/spotbugs/stargazers)  
   🐞 **Bytecode static analysis tool for Java** (LGPL-2.1) — The official successor to FindBugs. Employs formal bug pattern matching across compiled Java bytecode to detect over 400 bug patterns including null pointer dereferences, infinite loops, and concurrency risks. **Best for**: Java pipelines catching subtle runtime bugs through bytecode verification.
 
-- **[Coverage.py](https://github.com/coveragepy/coveragepy)** [![GitHub stars](https://img.shields.io/github/stars/coveragepy/coveragepy?style=social&color=white)](https://github.com/coveragepy/coveragepy/stargazers)  
+- **[Coverage.py](https://github.com/coveragepy/coveragepy)** [![GitHub_Stars](https://img.shields.io/github/stars/coveragepy/coveragepy?style=social&color=white)](https://github.com/coveragepy/coveragepy/stargazers)  
   🐍 **The standard code coverage tool for Python** (Apache-2.0) — Monitors Python program execution via trace hooks to measure which statements are executed and identify uncovered branches. Integrates seamlessly with pytest, unittest, and tox. **Best for**: Python test suites requiring accurate branch and statement coverage reports.
 
-- **[Cobertura](https://github.com/cobertura/cobertura)** [![GitHub stars](https://img.shields.io/github/stars/cobertura/cobertura?style=social&color=white)](https://github.com/cobertura/cobertura/stargazers)  
+- **[Cobertura](https://github.com/cobertura/cobertura)** [![GitHub_Stars](https://img.shields.io/github/stars/cobertura/cobertura?style=social&color=white)](https://github.com/cobertura/cobertura/stargazers)  
   📊 **Historic Java coverage tool and standardized XML reporting format** (GPL-2.0) — Established the classic Cobertura XML format widely accepted by CI systems (GitLab CI, Jenkins, Azure Pipelines) for test coverage visualization. **Best for**: Legacy JVM builds and systems dependent on Cobertura report schemas.
 
-- **[supercov-cli](https://github.com/supercorp-ai/supercov)** [![GitHub stars](https://img.shields.io/github/stars/supercorp-ai/supercov?style=social&color=white)](https://github.com/supercorp-ai/supercov/stargazers)  
+- **[supercov-cli](https://github.com/supercorp-ai/supercov)** [![GitHub_Stars](https://img.shields.io/github/stars/supercorp-ai/supercov?style=social&color=white)](https://github.com/supercorp-ai/supercov/stargazers)  
   🤖 **Coverage measurement and test target generator for coding agents** (MIT) — Designed for AI-assisted engineering and autonomous software factories. Measures lines, branches, and MC/DC independence witnesses across JS, TS, Rust, Python, Go, and Java, generating actionable test targets for LLMs. **Best for**: AI-driven development workflows and automated test authoring loops.
 
-- **[OpenClover](https://github.com/openclover/clover)** [![GitHub stars](https://img.shields.io/github/stars/openclover/clover?style=social&color=white)](https://github.com/openclover/clover/stargazers)  
+- **[OpenClover](https://github.com/openclover/clover)** [![GitHub_Stars](https://img.shields.io/github/stars/openclover/clover?style=social&color=white)](https://github.com/openclover/clover/stargazers)  
   🍀 **Sophisticated code coverage and test optimization platform for Java** (Apache-2.0) — Provides per-test coverage tracking (revealing which specific test hits which line), risk-metric cross tabulations, and test optimization that executes only tests affected by recent code edits. **Best for**: Engineering teams wanting per-test provenance and predictive test execution in CI.
 
 ---
@@ -134,7 +134,7 @@ Contributions are warmly welcomed! Help keep this code quality reference accurat
 
 1. 🍴 Fork the repository.
 2. 📝 Add or refine entries in `README.md` (keep descriptions factual, note license, and follow the established format).
-3. 🧪 Verify links and verify star counts/pricing accuracy.
+3. 🧪 Verify links and verify Stars_Counts/pricing accuracy.
 4. 🚀 Submit a pull request with a concise summary of changes.
 
 ---
