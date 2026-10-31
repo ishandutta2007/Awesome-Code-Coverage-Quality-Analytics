@@ -32,67 +32,28 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global static code analysis and code quality analytics market is valued between **$1.1B and $1.4B**, projected to surpass **$3.5B–$5.5B** over the next decade at a CAGR of 10%–13% (with code coverage utilities tracking parallel expansion above $2B). The sector is **moderately concentrated at the top**—dominated by enterprise application security leaders (Synopsys, SonarSource, Snyk) securing Fortune 500 contracts—while maintaining a **highly fragmented long tail** of developer-centric, niche linters, IDE integrations, and community-driven open-source instrumentation libraries.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[SonarQube Cloud](https://www.sonarsource.com/products/sonarqube/cloud/)**
-
-  **Managed static analysis and code quality platform** supporting 40+ languages. Detects bugs, vulnerabilities, and code smells; enforces quality gates on new code. **Pricing**: Free for open source; paid per lines of code for private projects. **Free tier**: Yes, for public repositories. **Best for**: teams wanting SonarQube's rule engine without self-hosting—**note**: the self-hosted Community Build is free and supports 40+ languages .
-
-
-
-- **[Codecov](https://about.codecov.io/)**
-
-  **Coverage reporting platform** that ingests coverage reports and posts PR checks, comments, and coverage history. Supports monorepo flags and components, failed/flaky test detection from JUnit XML, and bundle analysis . **Pricing**: Free for open source; **Team** $5/user/month (up to 10 users); **Pro** $12/user/month . **Free tier**: Yes, unlimited for open source. **Best for**: small teams with many repositories wanting granular PR coverage feedback—**trade-off**: per-user pricing; self-hosted requires Enterprise plan .
-
-
-
-- **[Coveralls](https://coveralls.io/)**
-
-  **Coverage reporting platform** with per-repository pricing and unlimited users. Simpler than Codecov—coverage only, no test result analytics . **Pricing**: Free for open source; **$10/month per repository**; **$400/month unlimited repositories** . **Free tier**: Yes, unlimited for open source. **Best for**: large teams with few repositories wanting unlimited users—**trade-off**: self-hosted Enterprise On-Prem is $25/user/month .
-
-
-
-- **[Codacy](https://www.codacy.com/)**
-
-  **Code quality and security platform** with static analysis across 49 languages and coverage tracking. Includes SAST, SCA, DAST, and secrets detection in one platform; Jira integration for context-aware AI review . **Pricing**: **$15/user/month** (Pro); free tier limited to Guardrails IDE extension for individuals . **Free tier**: Limited. **Best for**: teams wanting comprehensive multi-language coverage and security scanning at a lower per-seat price—**trade-off**: higher false positive rate than DeepSource .
-
-
-
-- **[DeepSource](https://deepsource.com/)**
-
-  **AI-powered static analysis** with sub-5% false positive rate and Autofix AI that generates working code fixes. Structured PR report cards with five-dimension analysis . **Pricing**: Free for individuals and open source (1,000 analysis runs/month); **Team** $30/user/month . **Free tier**: Yes, generous for open source. **Best for**: teams prioritizing signal quality and automated remediation over breadth—**trade-off**: fewer languages (16 GA vs. Codacy's 49) .
-
-
-
-- **[Qodana](https://www.jetbrains.com/qodana/)** (JetBrains)
-
-  **Static analysis platform** from JetBrains, optimized for teams already using JetBrains IDEs. **Pricing**: Free tier; paid per contributor. **Free tier**: Yes, limited. **Best for**: JetBrains-standardized teams wanting IDE-consistent analysis—**trade-off**: less compelling outside JetBrains tooling .
-
-
-
-- **[Snyk Code](https://snyk.io/product/snyk-code/)**
-
-  **AI-powered SAST** integrated into Snyk platform with real-time IDE scanning and PR checks. Supports 18+ languages including JavaScript, Python, Java, Go, C#, and Ruby . **Pricing**: Free tier; paid per developer. **Free tier**: Yes, limited tests. **Best for**: teams wanting security-focused static analysis alongside SCA—**trade-off**: SAST, not coverage measurement .
-
-
-
-- **[Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html)** (Synopsys)
-
-  **Enterprise static analysis** with deep defect detection. **Pricing**: Quote-only. **Free tier**: None. **Best for**: regulated enterprises needing the most thorough SAST—**trade-off**: enterprise pricing and complexity.
-
-
+| Product | Company Valuation / Revenue | Starting Pricing | Free Tier / Trial Limits | Description & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html)** (Synopsys / Black Duck) | **~$90B Market Cap** (~$6.1B ARR) | Custom enterprise quote (typically starts ~$800–$1,500/developer/year; contract minimums typically $50k+/year) | No standard commercial self-serve free trial (14–30 day custom POC via sales); **Free tier** via [Coverity Scan](https://scan.coverity.com/) strictly for registered open-source projects. | Enterprise-grade static analysis (SAST) with deep defect detection and compliance rules. Best for regulated enterprises needing rigorous SAST. |
+| **[Snyk Code](https://snyk.io/product/snyk-code/)** (Snyk) | **~$7.4B Valuation** (Series G) | **$25/contributing developer/month** (Team plan, up to 10 devs) | **Free forever plan**: up to 100 code tests/month across up to 5 projects with IDE & CLI integrations. | Developer-first AI-powered SAST with real-time IDE analysis and PR checks across 18+ languages. Best for security teams wanting integrated SAST and SCA. |
+| **[SonarQube Cloud](https://www.sonarsource.com/products/sonarqube/cloud/)** (SonarSource) | **~$4.7B Valuation** | **$34/month** (Team tier, starts at up to 100k lines of code; scales with LOC) | **Free forever plan**: up to 50,000 LOC for private repos (up to 5 users) and unlimited LOC for public/open-source repos. | Managed static analysis & code quality across 40+ languages with automated quality gates. Best for teams wanting SonarQube rules without managing self-hosted infrastructure. |
+| **[Qodana](https://www.jetbrains.com/qodana/)** (JetBrains) | **~$700M+ Annual Revenue** | **$5.00/active contributor/month** (Ultimate plan, min. 3 contributors, billed annually) | **Free Community Plan**: unlimited LOC and tests/projects for JVM, Python, .NET, C/C++; 30-day cloud data retention (excludes Go & JS/TS). | JetBrains-native static analysis platform providing IDE-consistent inspections in CI pipelines. Best for teams standardized on JetBrains tools. |
+| **[Codecov](https://about.codecov.io/)** (Harness / ex-Sentry) | **~$3B Valuation** (Parent Harness/Sentry; ~$2.9M ARR standalone) | **$5/user/month** (Team tier; Pro at $12/user/month) | **Free Developer Plan**: 1 user, up to 250 private repo coverage uploads/month; unlimited uploads and users for public open-source repos. | Specialized coverage reporting ingesting test coverage matrices, monorepo flags, and PR annotations. Best for teams needing granular PR coverage checks and flaky test insights. |
+| **[Codacy](https://www.codacy.com/)** | **~$30M+ Total Funding** (~$7M–$18M ARR) | **$15/user/month** (Pro plan billed annually) | **14-day free trial** with full Pro access; **Free Developer Plan**: free forever for individual IDE AI Guardrails extension; unlimited free for open-source repos. | Comprehensive code quality platform combining static analysis across 49 languages with coverage tracking and secret detection. Best for multi-language teams seeking broad test & security gating. |
+| **[DeepSource](https://deepsource.com/)** | **~$10M Total Funding** (~$2M ARR) | **$24/user/month** (Team tier billed annually) | **Free forever plan**: up to 3 team members, 3 private repositories, 3 SCA manifest targets, and unlimited public repos. | Static analysis and Autofix engine boasting <5% false-positive rate with automatic code remediation. Best for teams prioritizing high-signal alerts and automated PR fixes. |
+| **[Coveralls](https://coveralls.io/)** | **Bootstrapped / Private** | **$10/month** (Starter tier: 1 private repo, unlimited users; up to $400/month unlimited repos) | **30-day free trial** for private repository tiers; **Free forever plan** for unlimited public/open-source repositories with unlimited users. | Focused coverage history and PR tracking with per-repository pricing. Best for large engineering teams with few repositories seeking unlimited user seats. |
 
 ## Open-Source GitHub Projects
 
